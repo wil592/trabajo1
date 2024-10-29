@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    
+    }
+    
+    .titulo{
+        padding: 40px;
+    }
+    nav ul{
+        width: 100%;
+        margin: auto;
+        border-radius: 10px;
+        list-style-type: none;
+        background-color:aqua;
+    }
+    
+    nav li{
+        display: inline-flex;
+    }
+    
+    
+    nav a{
+        padding: 10px;
+        width: 150px;
+    
+    }
+    
+    nav ul a:hover{
+    background-color: white;
+    }
+    
+    
+    
+    
+    .contenido{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    .contenido .articulo{
+        width: 70%;
+        margin: auto;
+    }
+    
+    
+    
+    .contenido .articulo div{
+        width: 80%;
+        padding: 15px;
+        background-color: rgb(216, 213, 223);
+        border-radius: 15px;
+        margin-bottom: 15px;
+    
+    }
+    
+    
+    .contenido .articulo img{
+        width: 40%;
+        border-radius: 5px;
+    }
+    
+    
+    .contenido .secundaria{
+        width: 20%;
+    }
+    .contenido .secundaria p{
+        background-color: rgb(216, 213, 223);
+        border-radius: 15px;
+        padding: 20px;
+        height: 600px;
+    
+    }
+    
+    
+    .piedepagina{
+        background-color: rgb(216, 213, 223);
+        margin: 100px;
+    
+    }
+    .piedepagina p{
+        padding: 100px;
+    }
+    
+    h1{
+        font-size: 70px;
+        color: rgb(49, 248, 75);
+        border-radius: 10px;
+    }
+    h2{
+        font-size: 40px;
+        color: rgb(43, 226, 113);
+        border-radius: 10px;
+    }
+    p{
+        font-size: 20px;
+        color: brown; 
+        text-align: justify; 
+    }
